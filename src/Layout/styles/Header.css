@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 57px;
+}
+.left-column {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.middle-column {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-column {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.logo, .hamburger {
+    height: 20px;
+}
+.logo {
+padding-left: 20px;
+width: 120px;
+height: auto;
+}
+.hamburger {
+    margin-left: 20px;
+}
+.searchBar {
+    height: 40px;
+    max-width: 350px;
+    width: 0;
+    flex: 1;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px 0 0 3px;
+}
+.searchButton, .voiceButton {
+    background-color: #f7f7f7 !important;
+    width: 60px;
+    height: 40px;
+    
+}
+.searchIcon, .voiceIcon {
+    height: 24px;
+    width: 24px;
+}
+.searchButton {
+    border: 1px solid #d4d4d4;
+    margin-left: -1px;
+}
+.voiceButton {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.voiceButton {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+.searchBar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.uploadIcon, .ytApps, .notify {
+    width: 30px;
+    height: 30px;
+    /* margin-left: 10px; */
+}
+.channelIcon {
+    width: 32px;
+    border-radius: 16px;
+}
