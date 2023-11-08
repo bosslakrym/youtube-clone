@@ -1,0 +1,66 @@
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-column {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.middle-column {
+    display: flex;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.left-column {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.harmBurger {
+    height: 24px;
+    width: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo {
+    height: 20px;
+}
+.search {
+    height: 40px;
+    align-items: center;
+    flex: 1;
+    max-width: 400px;
+    border: 1px solid gray;
+    border-radius:  5px 0 0 5px;
+    padding-left: 10px;
+    font-family: Roboto, Arial;
+}
+.searchBtn {
+    width: 60px;
+    height: 40px;
+    margin: -1px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+.searchIcon, .voiceIcon {
+    height: 25px;
+}
+.voice-btn {
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+}
+.upload, .ytApps, .notify {
+    height: 24px;
+    margin-left: 29px;
+}
+.profilePic{
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
